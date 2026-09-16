@@ -39,6 +39,7 @@ resolution-accuracy gate and a green CI pipeline.
 | [`case-studies.md`](case-studies.md) | Template for client outcomes / testimonials |
 | [`landing.md`](landing.md) | Draft copy for a GitHub Pages landing page |
 | [`roadmap.md`](roadmap.md) | The business track backlog (kanban-lite) |
+| [`upskilling.md`](upskilling.md) | Playwright/pytest upskilling plan — what makes the CV's Playwright claim true |
 
 ## The honest bit
 

@@ -61,6 +61,7 @@ engineer", "AI speed without the risk").
 | `case-studies.md` | Template for client outcomes | Fill only from real engagements |
 | `landing.md` | Draft GitHub Pages landing copy | Draft may diverge from README; flag it |
 | `roadmap.md` | Kanban-lite: Now / Next / Later / Ideas | Status only on owner confirmation |
+| `upskilling.md` | Playwright/pytest upskilling plan + progress log | Truthful claims only — the CV's Playwright line depends on this |
 
 ---
 
