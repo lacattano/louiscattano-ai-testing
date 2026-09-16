@@ -46,5 +46,6 @@ engineer or waiting months for internal tooling.
 Because the same scope delivered the traditional way takes 4–6 weeks and more
 money. AI-assisted delivery compresses the build — and the QA discipline on
 top is what makes that speed safe. This is the workflow, not a gimmick: it's
-how I built [the generator](https://github.com/lacattano/AI-Playwright-Test-Generator)
-solo — 2,260+ tests, 95.2% accuracy gate, CI green on every commit.
+how I built [TanCat](https://github.com/tancat-ai/tancat)
+solo — open source (Apache-2.0), 3,100+ tests, a 97.9% static-eval accuracy
+gate, CI green on every commit.

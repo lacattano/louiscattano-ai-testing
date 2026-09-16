@@ -11,9 +11,10 @@ I design and deliver test automation for teams that want the speed of AI
 without the risk. I write the specs, orchestrate LLM agents to write the
 implementation, and personally review, test and ship everything — the same
 workflow I used to build
-[AI-Playwright-Test-Generator](https://github.com/lacattano/AI-Playwright-Test-Generator)
-solo: a production-grade tool that turns natural-language user stories into
-Playwright pytest tests, backed by 2,260+ tests of its own, a 95.2%
+[TanCat](https://github.com/tancat-ai/tancat) (formerly
+AI-Playwright-Test-Generator) solo: an open-source (Apache-2.0)
+production-grade tool that turns natural-language user stories into Playwright
+pytest tests, backed by 3,100+ tests of its own, a 97.9% static-eval
 resolution-accuracy gate and a green CI pipeline.
 
 **What I do:**
@@ -25,7 +26,7 @@ resolution-accuracy gate and a green CI pipeline.
 
 **How to reach me:** [lacattano@gmail.com](mailto:lacattano@gmail.com) ·
 [LinkedIn](https://linkedin.com/in/louiscattano/) ·
-[The product](https://github.com/lacattano/AI-Playwright-Test-Generator)
+[The product](https://github.com/tancat-ai/tancat)
 
 ---
 

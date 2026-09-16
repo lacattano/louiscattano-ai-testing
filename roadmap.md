@@ -2,16 +2,17 @@
 
 The go-to-market / services backlog for AI-assisted test automation. This is
 the **business project** — separate from the product repo
-(AI-Playwright-Test-Generator), which owns features, bugs and architecture.
+(TanCat, formerly AI-Playwright-Test-Generator), which owns features, bugs
+and architecture.
 
 **Rule:** every engagement should dogfood the product where possible —
 contracts are paid product research.
 
 ## Now (this month)
 
-- [ ] Publish this repo (done: scaffolded 2026-08-04)
+- [x] Publish this repo (scaffolded 2026-08-04; on origin/main)
 - [ ] Update LinkedIn headline: *"Test Automation Engineer · building AI-assisted test generation · available for contract"*
-- [ ] 3-min Loom demo of the generator + add README GIF (lives in the product repo, linked from here)
+- [ ] 3-min Loom demo of the generator + add README GIF — still pending, and now blocks three surfaces: the product README has a `YOUR_VIDEO_ID_HERE` placeholder, `docs/demo/demo.gif` doesn't exist, and the live tancat.dev landing page promises the same missing video
 - [ ] Register with 2–3 contract agencies (insurance/Guidewire + general test automation)
 - [ ] Tell the LV/Allianz/TCS alumni network the service exists
 

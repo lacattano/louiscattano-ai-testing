@@ -32,9 +32,10 @@ written by LLM agents, everything reviewed, tested and shipped by me.
 ## WHY ME
 
 - **6 years test automation** — Playwright, Selenium, Geb/Spock, Jenkins, 300+ scripts
-- **I built the tool** — [AI-Playwright-Test-Generator](https://github.com/lacattano/AI-Playwright-Test-Generator):
-  a production-grade AI test-generation product, solo — 2,260+ tests of its own,
-  95.2% resolution-accuracy gate, CI green on every commit
+- **I built the tool** — [TanCat](https://github.com/tancat-ai/tancat): an
+  open-source (Apache-2.0), production-grade AI test-generation product, built
+  solo — 3,100+ tests of its own, a 97.9% static-eval resolution-accuracy gate,
+  CI green on every commit
 - **The honest difference:** I don't hand-write code — agents do, under my
   direction. That's the workflow, not a caveat: every line is reviewed by a
   QA engineer before it ships
@@ -53,4 +54,4 @@ written by LLM agents, everything reviewed, tested and shipped by me.
 
 © Louis Cattano · [LinkedIn](https://linkedin.com/in/louiscattano/) ·
 [GitHub](https://github.com/lacattano/) ·
-[The product](https://github.com/lacattano/AI-Playwright-Test-Generator)
+[The product](https://github.com/tancat-ai/tancat)
