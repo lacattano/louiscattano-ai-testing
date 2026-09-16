@@ -62,6 +62,28 @@ into **Core Competencies** on the CV, and add the practice repo link.
 
 ---
 
+## Skills gate: Git
+
+Being able to call Git a core competency means doing the everyday workflow
+unaided and being able to explain it — not knowing Git internals. It is a day or
+two of work, and most of it happens in Week 1 of this plan for free (the
+practice repo is committed daily, pushed to GitHub, CI on every push).
+
+Add ~2 hours on the [Git Handbook](https://docs.github.com/en/get-started/using-git/about-git)
+and [learngitbranching.js.org](https://learngitbranching.js.org).
+
+- [ ] Explain in your own words what a commit, a branch and a remote are
+- [ ] Do the daily loop unaided: `status` → `diff` → `add` → `commit` → `push` → `pull`
+- [ ] Create a branch, work on it, merge it back
+- [ ] Resolve a simple merge conflict
+- [ ] Open a pull request on GitHub and understand the review/merge flow
+- [ ] Undo: discard a change, undo the last commit, restore a file
+- [ ] Explain what `.gitignore` is and why it matters
+
+Once ticked, add Git to **Core Competencies** on the CV.
+
+---
+
 ## Two tracks — run in parallel
 
 - **Track A (now):** apply to roles that match what can already be defended —
