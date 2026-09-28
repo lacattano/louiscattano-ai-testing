@@ -28,11 +28,13 @@ running in CI; regression suite runs in <x> min on every push"]
 
 ## Completed
 
-_No client engagements yet - first client is the priority (see [roadmap.md](roadmap.md)). The entry below is my own tool, not client work; it is here because it shows the method._
+_No client engagements yet - first client is the priority (see [roadmap.md](roadmap.md))._
 
-## clowder - own tool, agent dispatch (not a client engagement)
+## Own work - clowder, agent dispatch
 
-**Engagement:** Own product - no client, no fee. Listed as evidence of how I work.
+_My own tool, not a client engagement - evidence of the method the [setup service](offer.md) sells, kept separate from client outcomes._
+
+**Engagement:** Own product - no client, no fee.
 **Dates:** 27-28 September 2026 (`git log --oneline`)
 **Scope:** A Python CLI and a Pi skill that give a crew of coding agents one front door. It dispatches briefs, records state, and reports each answer with the question it answers attached. Each agent can have its own git worktree, so parallel work on one repo does not have to share a checkout.
 
@@ -59,9 +61,6 @@ The CI runs are linked from those pages. One worker also refused a fix whose pre
 ### Why it exists
 
 [Firstmate](https://github.com/kunchenguid/firstmate) already states the one-liaison idea, and this design started from it - ideas borrowed, no code. It was still written for three reasons. Firstmate targets macOS and Linux with tmux, zellij or cmux; this is Windows with herdr. It supports eight harnesses; this supports one, Pi. And it merges to main and opens pull requests, while here the merge stays the human's step. That is a difference in scope, not a claim to be better.
-
-### What the client said
-No client - this is my own tool. The checkable substitutes are the design record and the CI workflow.
 
 ### What I'd do differently next time
 Write the gate list before the first test. It arrived late (commit `8097417`, after steps 1 to 4), and until then "run the tests" lived only in prose.
