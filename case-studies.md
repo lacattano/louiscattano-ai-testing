@@ -33,8 +33,10 @@ _No client engagements yet - first client is the priority (see [roadmap.md](road
 ## clowder - own tool, agent dispatch (not a client engagement)
 
 **Engagement:** Own product - no client, no fee. Listed as evidence of how I work.
-**Dates:** 27-28 September 2026 (five commits, `git log --oneline`)
-**Scope:** A Python CLI and a Pi skill that give a crew of coding agents one front door. It dispatches briefs, records state, and reports each answer with the question it answers attached. Each agent gets its own git worktree, so parallel work on one repo cannot collide.
+**Dates:** 27-28 September 2026 (`git log --oneline`)
+**Scope:** A Python CLI and a Pi skill that give a crew of coding agents one front door. It dispatches briefs, records state, and reports each answer with the question it answers attached. Each agent can have its own git worktree, so parallel work on one repo does not have to share a checkout.
+
+Running one agent is easy. Running four is where it breaks, and not because of the agents: you become the integration layer, carrying who is on what, which question is still unanswered, and which pane you spoke to last. Answers arrive with nothing to say which question they answer. That is bookkeeping, and bookkeeping should not live in your head.
 
 ### Outcome
 - A written design of 19 numbered decisions, each with the reason and the rejected alternative (`DESIGN.md`). It names what was borrowed from [Firstmate](https://github.com/kunchenguid/firstmate) (ideas, no code) and what was left on purpose - their merge automation, because their tool merges and mine does not.
@@ -44,6 +46,19 @@ _No client engagements yet - first client is the priority (see [roadmap.md](road
 - Python 3.14, standard library only, no dependencies (`pyproject.toml`).
 - The tool never commits, pushes or merges; the merge is the human's step (`README.md`, decision 18 in `DESIGN.md`).
 - Not finished: `/calm` is unbuilt, and `DESIGN.md` has an Open list - where reports should come from, how a clean merge is handled when both sides have moved, whether CI status belongs in a report, and whether a space per agent is right for a repo with large local test state.
+
+### In use
+
+In one session I dispatched ten tasks through it, with three agents working at once, each in its own worktree. Two of those changes reached `main` after review, each with all five checks green:
+
+- [pull request 1](https://github.com/lacattano/clowder/pull/1) - merge `034a38b`
+- [pull request 2](https://github.com/lacattano/clowder/pull/2) - merge `4aef13f`
+
+The CI runs are linked from those pages. One worker also refused a fix whose premise turned out to be wrong - the page the fix depended on was not recorded in the plan it was sent to - and reported why instead. That is the behaviour the design was built for: an answer that says what it checked, not only what it did.
+
+### Why it exists
+
+[Firstmate](https://github.com/kunchenguid/firstmate) already states the one-liaison idea, and this design started from it - ideas borrowed, no code. It was still written for three reasons. Firstmate targets macOS and Linux with tmux, zellij or cmux; this is Windows with herdr. It supports eight harnesses; this supports one, Pi. And it merges to main and opens pull requests, while here the merge stays the human's step. That is a difference in scope, not a claim to be better.
 
 ### What the client said
 No client - this is my own tool. The checkable substitutes are the design record and the CI workflow.
