@@ -1,0 +1,3 @@
+# Untracked agent checkouts. Each agent works in its own worktree, one per
+# pane, so these appear as untracked directories in `git status`.
+.worktrees/
